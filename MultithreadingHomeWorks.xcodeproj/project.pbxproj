@@ -14,6 +14,7 @@
 		843C02601A11436D00959B2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C025F1A11436D00959B2F /* Images.xcassets */; };
 		843C02631A11436D00959B2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C02611A11436D00959B2F /* LaunchScreen.xib */; };
 		843C026F1A11436D00959B2F /* MultithreadingHomeWorksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C026E1A11436D00959B2F /* MultithreadingHomeWorksTests.m */; };
+		843C027A1A1143C200959B2F /* RRStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 843C02791A1143C200959B2F /* RRStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		843C02681A11436D00959B2F /* MultithreadingHomeWorksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultithreadingHomeWorksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843C026D1A11436D00959B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843C026E1A11436D00959B2F /* MultithreadingHomeWorksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultithreadingHomeWorksTests.m; sourceTree = "<group>"; };
+		843C02781A1143C200959B2F /* RRStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRStudent.h; sourceTree = "<group>"; };
+		843C02791A1143C200959B2F /* RRStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				843C02561A11436D00959B2F /* AppDelegate.h */,
 				843C02571A11436D00959B2F /* AppDelegate.m */,
+				843C02781A1143C200959B2F /* RRStudent.h */,
+				843C02791A1143C200959B2F /* RRStudent.m */,
 				843C02591A11436D00959B2F /* ViewController.h */,
 				843C025A1A11436D00959B2F /* ViewController.m */,
 				843C025C1A11436D00959B2F /* Main.storyboard */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843C025B1A11436D00959B2F /* ViewController.m in Sources */,
+				843C027A1A1143C200959B2F /* RRStudent.m in Sources */,
 				843C02581A11436D00959B2F /* AppDelegate.m in Sources */,
 				843C02551A11436D00959B2F /* main.m in Sources */,
 			);

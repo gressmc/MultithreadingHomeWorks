@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "843C024E1A11436D00959B2F"
+               BuildableName = "MultithreadingHomeWorks.app"
+               BlueprintName = "MultithreadingHomeWorks"
+               ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "843C02671A11436D00959B2F"
+               BuildableName = "MultithreadingHomeWorksTests.xctest"
+               BlueprintName = "MultithreadingHomeWorksTests"
+               ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "843C02671A11436D00959B2F"
+               BuildableName = "MultithreadingHomeWorksTests.xctest"
+               BlueprintName = "MultithreadingHomeWorksTests"
+               ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "843C024E1A11436D00959B2F"
+            BuildableName = "MultithreadingHomeWorks.app"
+            BlueprintName = "MultithreadingHomeWorks"
+            ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "843C024E1A11436D00959B2F"
+            BuildableName = "MultithreadingHomeWorks.app"
+            BlueprintName = "MultithreadingHomeWorks"
+            ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "843C024E1A11436D00959B2F"
+            BuildableName = "MultithreadingHomeWorks.app"
+            BlueprintName = "MultithreadingHomeWorks"
+            ReferencedContainer = "container:MultithreadingHomeWorks.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
