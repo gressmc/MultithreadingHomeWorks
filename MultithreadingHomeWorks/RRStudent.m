@@ -70,7 +70,7 @@ return sharedOperation;
                 range:(RRRange)range
             studBlock:(VoidBlockString)studBlock{
     
-    // Достаем диапазон чисер из параметра
+    // Достаем диапазон чисел из параметра
     NSInteger minR = range.minRangeNumber;
     NSInteger maxR = range.maxRangeNumber;
     __block NSInteger number = 0;
